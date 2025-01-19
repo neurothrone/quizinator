@@ -1,9 +1,18 @@
 import './App.css'
+// import Header from "./components/Layout/Header.jsx";
+// import Footer from "./components/Layout/Footer.jsx";
+// import HomePage from "./components/Pages/HomePage.jsx";
+// import GamePage from "./components/Pages/GamePage.jsx";
+import ResultPage from "./components/Pages/ResultPage.jsx";
 
 function App() {
   return (
     <>
-      <h1>Danny</h1>
+      {/*<Header />*/}
+      {/*<HomePage/>*/}
+      {/*<GamePage/>*/}
+      <ResultPage/>
+      {/*<Footer />*/}
     </>
   )
 }
