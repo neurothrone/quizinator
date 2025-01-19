@@ -30,23 +30,29 @@ const GamePage = () => {
       alert(`Game Over! Your score is ${score}`);
     }
   }
+
   return (
-    <main>
-      {questions.length === 0
-        ? <p>Loading...</p>
-        : <div>
-          <h2>{questions[currentQuestion].question}</h2>
-          <ul>
-            {questions[currentQuestion].options.map((answer, index) => (
-              <li key={index}>
-                <button onClick={() => onAnswerClicked(answer)}>
-                  {answer}
-                </button>
-              </li>
-            ))}
-          </ul>
-        </div>}
-    </main>
+    <>
+      <header>
+        <h2>Current score: {score} / {questions.length}</h2>
+      </header>
+      <main>
+        {questions.length === 0
+          ? <p>Loading...</p>
+          : <div>
+            <h2>{questions[currentQuestion].question}</h2>
+            <ul>
+              {questions[currentQuestion].options.map((answer, index) => (
+                <li key={index}>
+                  <button onClick={() => onAnswerClicked(answer)}>
+                    {answer}
+                  </button>
+                </li>
+              ))}
+            </ul>
+          </div>}
+      </main>
+    </>
   );
 };
 
