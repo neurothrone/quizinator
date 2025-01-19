@@ -1,0 +1,92 @@
+﻿[
+  {
+    "question": "What is 2 + 2?",
+    "options": [
+      2,
+      4,
+      5
+    ],
+    "answer": 4
+  },
+  {
+    "question": "What color is the sky?",
+    "options": [
+      "Red",
+      "Green",
+      "Blue"
+    ],
+    "answer": "Blue"
+  },
+  {
+    "question": "What is the capital of France?",
+    "options": [
+      "Berlin",
+      "Madrid",
+      "Paris"
+    ],
+    "answer": "Paris"
+  },
+  {
+    "question": "What is 3 + 5?",
+    "options": [
+      5,
+      8,
+      10
+    ],
+    "answer": 8
+  },
+  {
+    "question": "What is the boiling point of water?",
+    "options": [
+      90,
+      100,
+      110
+    ],
+    "answer": 100
+  },
+  {
+    "question": "What is the largest planet in our solar system?",
+    "options": [
+      "Earth",
+      "Jupiter",
+      "Mars"
+    ],
+    "answer": "Jupiter"
+  },
+  {
+    "question": "What is the chemical symbol for water?",
+    "options": [
+      "H2O",
+      "O2",
+      "CO2"
+    ],
+    "answer": "H2O"
+  },
+  {
+    "question": "What is the speed of light?",
+    "options": [
+      "300,000 km/s",
+      "150,000 km/s",
+      "450,000 km/s"
+    ],
+    "answer": "300,000 km/s"
+  },
+  {
+    "question": "What is the square root of 16?",
+    "options": [
+      2,
+      4,
+      8
+    ],
+    "answer": 4
+  },
+  {
+    "question": "What is the currency of Japan?",
+    "options": [
+      "Yen",
+      "Dollar",
+      "Euro"
+    ],
+    "answer": "Yen"
+  }
+]
